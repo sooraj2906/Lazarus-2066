@@ -24,10 +24,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -102,53 +100,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9826}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 9914}
+      Script: {instanceID: 9916}
     - Class: 114
-      Script: {instanceID: 9936}
+      Script: {instanceID: 9938}
     - Class: 114
-      Script: {instanceID: 10128}
+      Script: {instanceID: 10130}
     - Class: 114
-      Script: {instanceID: 10150}
+      Script: {instanceID: 10152}
     - Class: 114
-      Script: {instanceID: 10234}
+      Script: {instanceID: 10202}
     - Class: 114
-      Script: {instanceID: 10332}
+      Script: {instanceID: 10238}
     - Class: 114
-      Script: {instanceID: 10364}
+      Script: {instanceID: 10336}
     - Class: 114
-      Script: {instanceID: 10398}
+      Script: {instanceID: 10368}
     - Class: 114
-      Script: {instanceID: 10542}
+      Script: {instanceID: 10402}
     - Class: 114
-      Script: {instanceID: 10576}
+      Script: {instanceID: 10548}
     - Class: 114
-      Script: {instanceID: 10780}
+      Script: {instanceID: 10582}
     - Class: 114
       Script: {instanceID: 10786}
     - Class: 114
-      Script: {instanceID: 10888}
+      Script: {instanceID: 10792}
     - Class: 114
-      Script: {instanceID: 10960}
+      Script: {instanceID: 10894}
     - Class: 114
-      Script: {instanceID: 11018}
+      Script: {instanceID: 10966}
     - Class: 114
-      Script: {instanceID: 11306}
+      Script: {instanceID: 11024}
     - Class: 114
-      Script: {instanceID: 11348}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11358}
+      Script: {instanceID: 11354}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 11364}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11396}
+      Script: {instanceID: 11382}
     - Class: 114
-      Script: {instanceID: 571138}
+      Script: {instanceID: 11402}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -219,25 +217,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9824}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9856}
     - Class: 114
-      Script: {instanceID: 10234}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 10254}
+      Script: {instanceID: 10238}
     - Class: 114
-      Script: {instanceID: 10576}
+      Script: {instanceID: 10258}
     - Class: 114
-      Script: {instanceID: 10786}
+      Script: {instanceID: 10582}
     - Class: 114
-      Script: {instanceID: 10800}
+      Script: {instanceID: 10792}
     - Class: 114
-      Script: {instanceID: 11018}
+      Script: {instanceID: 10806}
     - Class: 114
-      Script: {instanceID: 11162}
+      Script: {instanceID: 11024}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 11168}
     - Class: 114
-      Script: {instanceID: 77182}
+      Script: {instanceID: 11366}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -331,6 +329,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: 89498a9a4a6296605faa18a2c5f758a4
@@ -433,6 +437,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 93046362279534243958131285f7938d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -751,18 +761,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 93046362279534243958131285f7938d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AudioManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

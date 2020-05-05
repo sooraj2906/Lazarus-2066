@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -49,7 +50,7 @@ public class PlayerController : MonoBehaviour
 
             charController.Move(Vector3.forward * 0.001f);
             //Punch
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && currentStamina >=10)
             {
                 handColldider.enabled = true;
                 audioManager.Play("Attack", 10);
@@ -131,6 +132,11 @@ public class PlayerController : MonoBehaviour
             }
         }
         
+        if(currentHealth<= 0)
+        {
+            SceneManager.LoadScene(0);
+        }
+
     }
 
     // Set our focus to a new focus
