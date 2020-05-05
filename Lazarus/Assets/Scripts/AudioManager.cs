@@ -51,7 +51,7 @@ public class AudioManager : MonoBehaviour
 		s.source.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitchVariance / 2f, s.pitchVariance / 2f));
         s.source.maxDistance = dist;
         s.source.spatialBlend = 1.0f;
-        s.source.rolloffMode = AudioRolloffMode.Linear;
+        s.source.rolloffMode = AudioRolloffMode.Custom;
         s.source.panStereo = 0.5f;
 
 		s.source.Play();
